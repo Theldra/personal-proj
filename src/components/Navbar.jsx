@@ -1,7 +1,8 @@
 import { Camera } from 'lucide-react';
 
+
 const Navbar = () => {
-    return <nav>
+    return <nav className='bg-rose-500 h-dvh fixed p-4'>
         <div>
         <span>
         <Camera color="black" size={60} />
@@ -16,6 +17,14 @@ const Navbar = () => {
             <li><a href="#">Contact</a></li>
         </ul>
         <p>Follow Us Here!</p>
+        <div>
+            <span>
+               
+            </span>
+            <span>
+                
+            </span>
+        </div>
     </nav>
 }
 
