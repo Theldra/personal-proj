@@ -14,7 +14,7 @@ import art from "../assets/images/ast11.jpeg"
 
 const Hero = () => {
     return(
-        <div className="grid grid-cols-3 w-3/4">
+        <div className="grid grid-cols-3 w-3/4  ml-72">
           <img src={pic} alt=""/>  
           <img src={cam} alt=""/>  
           <img src={cip} alt="" />

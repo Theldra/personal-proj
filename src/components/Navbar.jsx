@@ -13,14 +13,14 @@ const Navbar = () => {
         </span>
         <h1>Capture</h1>
         </div>
-        <ul>
+        <ul className='pt-16 ml-8'>
             <li><a href="#">Home</a></li>
             <li><a href="#">Gallery</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
-        <p className=''>Follow Us Here!</p>
+        <p className='pt-24'>Follow Us Here!</p>
         {/* <div>
             <span>
                 <FontAwesomeIcon icon={faFacebook} fontSize="25px" /> 
